@@ -11,9 +11,9 @@ const perguntaA = "Vovê se alimentou hoje?"
 const perguntaB = "Você é fumante?"
 const perguntaC = "Você tem animais de estimação?"
 
-const respostaA = prompt(perguntaA)
-const respostaB = prompt(perguntaB)
-const respostaC = prompt(perguntaC)
+let respostaA = prompt(perguntaA)
+let respostaB = prompt(perguntaB)
+let respostaC = prompt(perguntaC)
 
 console.log(perguntaA , respostaA)
 console.log(perguntaB , respostaB)

@@ -1,15 +1,15 @@
 
-let nome = "Nome completo:"
-let dataNascimento = "Data de nascimento(utilize as /):"
-let endereco = "Endereço:"
-let cpf = "CPF:"
-let escolaridade = "Escolaridade:"
-let cnh = "Possui CNH?"
-let filhos = "Quantos filhes possui?"
-let cargo = "Cargo atual:"
-let salario = "Salário:"
-let comissao = "Recebe comissão? Se sim, aperte em confirme, caso não, clique em cancel"
-let admissao = "Informe o ano de admissão:"
+const nome = "Nome completo:"
+const dataNascimento = "Data de nascimento(utilize as /):"
+const endereco = "Endereço:"
+const cpf = "CPF:"
+const escolaridade = "Escolaridade:"
+const cnh = "Possui CNH?"
+const filhos = "Quantos filhes possui?"
+const cargo = "Cargo atual:"
+const salario = "Salário:"
+const comissao = "Recebe comissão? Se sim, aperte em confirme, caso não, clique em cancel"
+const admissao = "Informe o ano de admissão:"
 
 let respostaNome = prompt(nome)
 let respostaDataNascimento = prompt(dataNascimento)
@@ -39,7 +39,7 @@ console.log(escolaridade , respostaEscolaridade)
 console.log(typeof escolaridade , typeof respostaEscolaridade)
 
 console.log(cnh , respostaCnh)
-console.log(typeof chh , typeof respostaCnh)
+console.log(typeof cnh , typeof respostaCnh)
 
 console.log(filhos , respostaFilhos)
 console.log(typeof filhos , typeof respostaFilhos)
