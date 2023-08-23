@@ -1,7 +1,7 @@
 /*
-const respostaA = prompt('Você se alimentou hoje?')
-const respostaB = prompt('Você é fumante?')
-const respostaC = prompt('Você tem animais de estimação?')
+let respostaA = prompt('Você se alimentou hoje?')
+let respostaB = prompt('Você é fumante?')
+let respostaC = prompt('Você tem animais de estimação?')
 
 console.log(respostaA)
 console.log(respostaB)
